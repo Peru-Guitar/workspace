@@ -7,7 +7,7 @@
     "dev:web": "npm --prefix pg-web run dev -- -p 4100",
     "dev:fretquest": "npm --prefix pg-fretquest run dev -- --port 4200 --strictPort",
     "dev:fighters": "npm --prefix pg-fighters run dev -- --port 4300 --strictPort",
-    "clone": "for r in pg-web pg-fretquest pg-fighters; do [ -d $r ] || git clone https://github.com/Peru-Guitar/$r.git; done",
+    "sync": "bash scripts/sync.sh",
     "install:all": "npm --prefix pg-web ci && npm --prefix pg-fretquest ci && npm --prefix pg-fighters ci"
   },
   "devDependencies": {
