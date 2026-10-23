@@ -5,7 +5,7 @@ Runs every Peru Guitar app locally with fixed ports. Each app lives in its own r
 | App | Repo | Local | Production |
 |---|---|---|---|
 | Web | [pg-web](https://github.com/Peru-Guitar/pg-web) | http://localhost:4100 | https://peruguitar.com |
-| Fret Quest | [pg-fretquest](https://github.com/Peru-Guitar/pg-fretquest) | http://localhost:4200 | https://app.peruguitar.com |
+| Fret Quest | [pg-fretquest](https://github.com/Peru-Guitar/pg-fretquest) | http://localhost:4200 | https://fretquest.peruguitar.com |
 | PG Fighters | [pg-fighters](https://github.com/Peru-Guitar/pg-fighters) | http://localhost:4300 | https://fighters.peruguitar.com |
 
 ## Setup
