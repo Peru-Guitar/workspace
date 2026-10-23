@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+
+# Each app is its own repo, cloned next to this file (npm run clone).
+/pg-web/
+/pg-fretquest/
+/pg-fighters/
