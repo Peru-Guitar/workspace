@@ -3,7 +3,7 @@
   "private": true,
   "description": "Local workspace to run every Peru Guitar app with fixed ports.",
   "scripts": {
-    "dev": "concurrently -k -n web,fretquest,fighters -c blue,green,magenta \"npm:dev:*\"",
+    "dev": "node scripts/dev.mjs",
     "dev:web": "npm --prefix pg-web run dev -- -p 4100",
     "dev:fretquest": "npm --prefix pg-fretquest run dev -- --port 4200 --strictPort",
     "dev:fighters": "npm --prefix pg-fighters run dev -- --port 4300 --strictPort",
