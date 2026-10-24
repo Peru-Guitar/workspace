@@ -5,3 +5,4 @@ node_modules/
 /pg-web/
 /pg-fretquest/
 /pg-fighters/
+.stats/
