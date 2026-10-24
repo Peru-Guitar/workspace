@@ -37,11 +37,3 @@ Clones missing apps and fast-forwards the others to `origin/main`. It never
 discards local work: a repo with uncommitted changes or diverged commits is
 skipped with a warning.
 
-## Stats
-
-```bash
-npm run stats
-```
-
-Personal Fret Quest dashboard: total users plus this week's most practiced modules
-and lessons. Reads production with your `firebase login` and opens `.stats/index.html`.

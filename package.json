@@ -8,8 +8,7 @@
     "dev:fretquest": "npm --prefix pg-fretquest run dev -- -p 4200",
     "dev:fighters": "npm --prefix pg-fighters run dev -- --port 4300 --strictPort",
     "sync": "bash scripts/sync.sh",
-    "install:all": "npm --prefix pg-web ci && npm --prefix pg-fretquest ci && npm --prefix pg-fighters ci",
-    "stats": "node scripts/stats.mjs"
+    "install:all": "npm --prefix pg-web ci && npm --prefix pg-fretquest ci && npm --prefix pg-fighters ci"
   },
   "devDependencies": {
     "concurrently": "^9.2.5"
