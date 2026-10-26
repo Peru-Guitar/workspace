@@ -7,8 +7,9 @@
     "dev:web": "npm --prefix pg-web run dev -- -p 4100",
     "dev:fretquest": "npm --prefix pg-fretquest run dev -- -p 4200",
     "dev:fighters": "npm --prefix pg-fighters run dev -- --port 4300 --strictPort",
+    "dev:composer": "npm --prefix pg-composer run dev -- --port 4400 --strictPort",
     "sync": "bash scripts/sync.sh",
-    "install:all": "npm --prefix pg-web ci && npm --prefix pg-fretquest ci && npm --prefix pg-fighters ci"
+    "install:all": "npm --prefix pg-web ci && npm --prefix pg-fretquest ci && npm --prefix pg-fighters ci && npm --prefix pg-composer install"
   },
   "devDependencies": {
     "concurrently": "^9.2.5"

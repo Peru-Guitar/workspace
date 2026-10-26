@@ -6,6 +6,7 @@ const apps = [
   { name: "PG Web", port: 4100, color: "\x1b[34m" },
   { name: "PG FretQuest", port: 4200, color: "\x1b[32m" },
   { name: "PG Fighters", port: 4300, color: "\x1b[35m" },
+  { name: "PG Composer", port: 4400, color: "\x1b[36m" },
 ];
 
 const reset = "\x1b[0m";
@@ -81,7 +82,7 @@ printTable("starting");
 
 const child = spawn(
   "npx",
-  ["concurrently", "-k", "-c", "blue,green,magenta", "npm:dev:*"],
+  ["concurrently", "-k", "-c", "blue,green,magenta,cyan", "npm:dev:*"],
   { stdio: "inherit" }
 );
 
