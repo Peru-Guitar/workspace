@@ -12,7 +12,7 @@ Runs every Peru Guitar app locally with fixed ports. Each app lives in its own r
 
 ```bash
 npm install          # workspace tools (concurrently)
-npm run sync         # clones missing apps, updates the rest
+npm run clone        # clones missing apps, skips existing folders
 npm run install:all  # installs each app's dependencies
 ```
 
